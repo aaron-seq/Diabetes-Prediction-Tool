@@ -8,3 +8,4 @@ scikit-learn==1.3.2
 seaborn==0.13.0
 xgboost==2.0.3
 shap==0.44.0
+Flask-CORS==4.0.0
