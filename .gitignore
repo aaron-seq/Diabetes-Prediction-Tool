@@ -1,1 +1,74 @@
-Byte-compiled / optimized / DLL filespycache/*.py[cod]*$py.classC extensions*.soDistribution / packaging.Pythonbuild/develop-eggs/dist/downloads/eggs/.eggs/lib/lib64/parts/sdist/var/wheels/*.egg-info/.installed.cfg*.eggMANIFESTPyInstallerUsually these files are written by a python script from a templatebefore PyInstaller builds the exe, so as to inject date/other infos into it.*.manifest*.specInstaller logspip-log.txtpip-delete-this-directory.txtUnit test / coverage reportshtmlcov/.tox/.coverage.coverage.*.cachenosetests.xmlcoverage.xml*.cover.hypothesis/.pytest_cache/Environments.env.venvenv/venv/ENV/env.bak/venv.bak/Modelsmodels/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Models (comment out if you want to commit trained models)
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Static files generated at runtime
+static/*.png
+static/*.jpg
+static/*.jpeg
